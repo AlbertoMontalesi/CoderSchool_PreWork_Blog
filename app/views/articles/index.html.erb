@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<div id="titlepage">
+  <h1>Alberto's Blog</h1>
+<h3> My first blog created using Ruby on Rails <h3>
+
+</div>
+
+<div class="container">
+    <div class="row"> 
+      <div class="col-sm-10">
+      <h1> ARTICLES INDEX </h1>
+<% @articles.each do |article| %>
+  <div class="article">
+    <h1 class="article-title"><%= link_to article.title, article %></h1>
+  </div>
+<% end %>
+</div>
+
+      </div>
+    </div>
+
+
+<%= render @articles %>
+
+
+<div class="container">
+    <div class="row"> 
+      <div class="col-sm-10">
+          <div class="newarticle">
+            <%= link_to 'New Article', new_article_path %>
+          </div>
+
+      </div>
+    </div>
+</div>
+
+

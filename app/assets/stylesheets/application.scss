@@ -1,0 +1,108 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ // Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
+$color_title: #34495e;
+$color_background:#95a5a6;
+$color_background_light: lighten($color_background,30%);
+
+
+*, *:hover{
+    text-decoration: none;
+}
+body {
+    background-color: $color_background;
+}
+#titlepage {
+    width: 100%;
+    height: 150px;
+    background-color: $color_title;
+    text-transform: uppercase;
+    position: relative;
+    top: -30px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    color:white;
+
+}
+.container {
+    margin-bottom: 20px;
+}
+.card {
+    background-color: $color_background_light;
+    margin-bottom: 30px;
+}
+.card p {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.card-text a,.card-text a:hover {
+    color: inherit;
+    background-color: none;
+}
+.card-title {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $color_title;
+}
+.newarticle {
+    position: relative;
+    bottom: 5px;
+    text-transform: uppercase;
+    height:40px;
+    padding-top: 8px;
+    text-align: center;
+    width:150px;
+    border-radius: .25em;
+    background-color: $color_title;
+
+}
+.newarticle:hover{
+background-color: lighten($color_title,30%);
+}
+
+
+.newarticle a, .newarticle a:hover {
+    color: white;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.footer a {
+    color: white;
+}
+
+h1 a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 5px 0 0 ;
+}
+
+.navbar-form{
+    width:auto;
+    display: block;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 10px;
+}
+
