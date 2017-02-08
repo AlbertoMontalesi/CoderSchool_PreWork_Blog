@@ -1,15 +1,12 @@
 # Pre-work - *coderschool rails blog*
 
-> HINT: Please
-> - include this README.md in your project and fill out the information. 
-> - remove the `README.rdoc` file that Rails generates. 
-> - remove all the HINT blocks in this file.
+
 
 **Ruby on rails blog** is a Ruby on Rails blog application.
 
 Submitted by: **Alberto Montalesi**
 
-Time spent: **X** hours spent in total
+Time spent: **10+** hours spent in total
 
 URL: **Insert your Heroku URL here**
 
@@ -42,11 +39,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-> HINT: You can put a `walkthrough.gif` file in your project folder, add to git, and use the following syntax to embed it:  
-> `![Video Walkthrough](walkthrough.gif)` 
-> 
-
-![Video Walkthrough](/path/to/your/gif/file)
+![Video Walkthrough](walkthrough.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -56,7 +49,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Alberto Montalesi]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
